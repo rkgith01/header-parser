@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+	font-family: "Exo", sans-serif;
+	background-color: #697b88;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+  }
+  
+  /* Container styling */
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 10px;
+  }
+  
+  /* Link styling */
+  a {
+	color: #ffffff;
+	text-decoration: none;
+	transition: color 0.3s ease;
+  }
+  
+  a:hover {
+	color: #0056b3;
+  }
+  
+  /* Code block styling */
+  pre {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+  }
+  
+  code {
+	font-family: 'Roboto Mono', monospace;
+	/* text-wrap: wrap; */
+  }
+  
+  /* Footer styling */
+  .footer {
+	text-align: center;
+	margin-top: 50px;
+  }
+  
+  .footer a {
+	color: #14e4e4;
+  }
+  
+  .footer a:hover {
+	color: #333;
+  }
+  
+  .logo{
+	height: 100px;
+	width: 100px;
+	margin-bottom: 20px;
+  }
+
+  .logoImg{
+	display: flex;
+	justify-content: center;
+  }
